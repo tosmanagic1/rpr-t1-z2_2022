@@ -20,7 +20,7 @@ public class Main {
         Scanner ulaz = new Scanner(System.in);
         System.out.println("Unesite broj: ");
         int n = ulaz.nextInt();
-        System.out.println("Brojevi između" + 1 + " i " + n + " koji su djeljivi sa sumom svojih cifara su: ");
+        System.out.println("Brojevi izmedju " + 1 + " i " + n + " koji su djeljivi sa sumom svojih cifara su: ");
         for (int i = 1; i <= n; i++) {
             if (i%sumaCifara(i)==0) {
                 System.out.println(i);
